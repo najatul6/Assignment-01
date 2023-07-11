@@ -1,0 +1,436 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Common_Styles */
+.btn-primary {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 40px;
+    border: 0;
+    cursor: pointer;
+}
+
+/* Header_Section_Start */
+header {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+/* Menu_Section_Start */
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background: #E55473;
+}
+
+.brand {
+    text-decoration: none;
+    padding: 20px;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li {
+    list-style-type: none;
+    margin-right: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+.navbar li a {
+    text-decoration: none;
+    display: block;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar li a:hover {
+    color: #d8d5d5;
+}
+
+.navbar li ul{
+    position: absolute;
+    left: -9999999999px;
+    background: #E55473;
+}
+
+.navbar li:hover ul{
+    left: 0;
+}
+
+.navbar li ul li:hover a{
+    color: #d8d5d5;
+}
+/* Menu_Section_End */
+
+/* Banner_Section_Start */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.banner-content {
+    padding: 190px 10px 120px 140px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 32px 0px;
+}
+
+.banner-profile {
+    width: 600px;
+    padding: 50px 100px 0px 10px;
+}
+ /* Banner_Section_End  */
+/* Header_Section_End */
+
+/* Main_Section_Start */
+/* Future_Section_Start */
+.future-box {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.future-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 170px;
+}
+
+.future-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 50px 410px;
+}
+
+.future-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.future-profile1 {
+    width: 460px;
+    height: 530px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.future-profile2 {
+    width: 460px;
+    height: 530px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.future-profile3 {
+    width: 460px;
+    height: 530px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.future-profile-pic {
+    width: 310px;
+    height: 420px;
+    justify-content: center;
+    padding: 110px 75px 0px 75px;
+}
+
+.profile-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+}
+
+.future-profile-description {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+/* Future_Section_End */
+
+/* Support_Section_Start */
+.support-box {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.support-content {
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 80px 170px;
+}
+
+.support-profile {
+    text-align: center;
+}
+
+.support-description {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+/* Support_Section_End */
+
+/* Sign_Up_Section_Start */
+.sign-up-section {
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 130px;
+}
+
+.sign-up-contentainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 100px 250px;
+}
+
+.sign-up-content {
+    padding: 5px;
+    text-align: center;
+}
+
+.sign-up-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.sign-up-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 25px 30px;
+}
+
+/* Sign_Up_Section_End */
+
+/* Social_Site_Section_Start */
+.social-section {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.social-content {
+    margin-top: 130px;
+}
+
+.social-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.social-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 50px 420px;
+}
+
+.social-posts {
+    display: flex;
+    gap: 30px;
+}
+
+/* Social_Site_Section_End */
+
+/* Subscribe_Section_Start */
+.subscribe-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.subscribe-content {
+    background: url(Assets/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    padding: 120px 280px;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.subscribe-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.subscribe-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.email-box {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 22px 400px 22px 22px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    margin-right: 15px;
+}
+
+/* Subscribe_Section_End */
+
+/* Customer_Section_Start */
+.customer-box {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.customer-box-content {
+    margin-top: 130px;
+}
+
+.customer-box-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-bottom: 4px solid orange;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.customer-locations {
+    display: flex;
+    margin-top: 45px;
+    justify-content: space-around;
+}
+
+.customer-location1 {
+    padding: 40px;
+    text-align: center;
+    background: url('Assets/bangladesh.jpg'), linear-gradient(to right, transparent, rgb(72, 62, 62));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.customer-location2 {
+    padding: 40px;
+    text-align: center;
+    background: url('Assets/united-state.jpg'), linear-gradient(to right, transparent, rgb(72, 62, 62));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.customer-location3 {
+    padding: 40px;
+    text-align: center;
+    background: url('Assets/united-kingdom.jpg'), linear-gradient(to right, transparent, rgb(72, 62, 62));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.customer-location4 {
+    padding: 40px;
+    text-align: center;
+    background: url('Assets/united-arab.jpg'), linear-gradient(to right, transparent, rgb(72, 62, 62));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+
+/* Customer_Section_End */
+/* Main_Section_End */
+
+/* Footer_Section_Start */
+footer {
+    background: #111010;
+    padding: 130px 450px;
+    margin-top: 130px;
+}
+
+.footer-title {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.footer-copyright-section {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Footer_Section_End */
